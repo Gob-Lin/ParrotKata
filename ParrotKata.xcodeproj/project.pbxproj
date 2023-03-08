@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2941D2FFAC54DBFF396C9DA4 /* ParrotType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941DD9D0091193C2A5D0295 /* ParrotType.swift */; };
+		2941D3D5948FC95210AAA023 /* ParrotKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941DC770860AEF9BE89FECF /* ParrotKataTests.swift */; };
+		2941D551593F012D489D0DE1 /* ParrotKataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941D8F5969C3016609E4DB5 /* ParrotKataUITestsLaunchTests.swift */; };
+		2941D9C4D2AF237680FDFAD8 /* ParrotKataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941DB3BB8491AD1D9E3A42E /* ParrotKataUITests.swift */; };
+		2941DB307DD951B9DA2D9C41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2941D1143B7EEABD9846033E /* Preview Assets.xcassets */; };
+		2941DB6B61B500C5ED7E9863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2941DAEEFC913AE02E548951 /* Assets.xcassets */; };
+		2941DD0191D7E8CB46265D1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941D73221832CA32AC8F2F2 /* ContentView.swift */; };
+		2941DE648846D0872C6428A9 /* ParrotKataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941DBA2104A496CC9CAC744 /* ParrotKataApp.swift */; };
+		2941DEF3999FA3984651606E /* Parrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941D11688152369026D9BC5 /* Parrot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2941D7E8A59D1EE149664422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2941DBAF692B1D72506ABE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2941D60CE184C848DD977F46;
+			remoteInfo = ParrotKata;
+		};
+		2941DA74FD8D18997A80C45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2941DBAF692B1D72506ABE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2941D60CE184C848DD977F46;
+			remoteInfo = ParrotKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2941D1143B7EEABD9846033E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2941D11688152369026D9BC5 /* Parrot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parrot.swift; sourceTree = "<group>"; };
+		2941D149DF7DE2D0F595C973 /* ParrotKataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotKataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2941D73221832CA32AC8F2F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2941D8C7D4914F9595B096C0 /* ParrotKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2941D8F5969C3016609E4DB5 /* ParrotKataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotKataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2941DA8C06808984783E19F4 /* ParrotKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParrotKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2941DAEEFC913AE02E548951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2941DB3BB8491AD1D9E3A42E /* ParrotKataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotKataUITests.swift; sourceTree = "<group>"; };
+		2941DBA2104A496CC9CAC744 /* ParrotKataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotKataApp.swift; sourceTree = "<group>"; };
+		2941DC770860AEF9BE89FECF /* ParrotKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotKataTests.swift; sourceTree = "<group>"; };
+		2941DD9D0091193C2A5D0295 /* ParrotType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParrotType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2941D5C2A20A8465FBA0515F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2941DC29CEF07AAED8729402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2941DD14516DB845D54DD204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2941D065A2A4A8E82F80334A = {
+			isa = PBXGroup;
+			children = (
+				2941D0C3D7BD2A987C86F428 /* Products */,
+				2941DBF9DC59BFF1DED4A568 /* ParrotKata */,
+				2941D6635EA9B3FBAAB51AA1 /* ParrotKataTests */,
+				2941DC9B30329C57D08FA6B4 /* ParrotKataUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		2941D0C3D7BD2A987C86F428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2941DA8C06808984783E19F4 /* ParrotKata.app */,
+				2941D8C7D4914F9595B096C0 /* ParrotKataTests.xctest */,
+				2941D149DF7DE2D0F595C973 /* ParrotKataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2941D1C86A5D0312F365DBD5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2941D1143B7EEABD9846033E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2941D6635EA9B3FBAAB51AA1 /* ParrotKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				2941DC770860AEF9BE89FECF /* ParrotKataTests.swift */,
+			);
+			path = ParrotKataTests;
+			sourceTree = "<group>";
+		};
+		2941DBF9DC59BFF1DED4A568 /* ParrotKata */ = {
+			isa = PBXGroup;
+			children = (
+				2941DAEEFC913AE02E548951 /* Assets.xcassets */,
+				2941D1C86A5D0312F365DBD5 /* Preview Content */,
+				2941DBA2104A496CC9CAC744 /* ParrotKataApp.swift */,
+				2941D73221832CA32AC8F2F2 /* ContentView.swift */,
+				2941DD9D0091193C2A5D0295 /* ParrotType.swift */,
+				2941D11688152369026D9BC5 /* Parrot.swift */,
+			);
+			path = ParrotKata;
+			sourceTree = "<group>";
+		};
+		2941DC9B30329C57D08FA6B4 /* ParrotKataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2941DB3BB8491AD1D9E3A42E /* ParrotKataUITests.swift */,
+				2941D8F5969C3016609E4DB5 /* ParrotKataUITestsLaunchTests.swift */,
+			);
+			path = ParrotKataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2941D05FA7FACDB2FE63CCEB /* ParrotKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2941D3245B0A98DE9BB82AC0 /* Build configuration list for PBXNativeTarget "ParrotKataTests" */;
+			buildPhases = (
+				2941DF3A91C77FE8E541D640 /* Sources */,
+				2941DC29CEF07AAED8729402 /* Frameworks */,
+				2941DAA16460D4A26A8E5920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2941D31F67A24AF6E0E5F8B2 /* PBXTargetDependency */,
+			);
+			name = ParrotKataTests;
+			productName = ParrotKataTests;
+			productReference = 2941D8C7D4914F9595B096C0 /* ParrotKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2941D1319BD7F4C49D26F598 /* ParrotKataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2941D5AADBE521DB84F5D8EE /* Build configuration list for PBXNativeTarget "ParrotKataUITests" */;
+			buildPhases = (
+				2941D067D08B7BAA98FB79B6 /* Sources */,
+				2941D5C2A20A8465FBA0515F /* Frameworks */,
+				2941D5B497791F1C963410AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2941DF1FE4AA1CEEA9F866F7 /* PBXTargetDependency */,
+			);
+			name = ParrotKataUITests;
+			productName = ParrotKataUITests;
+			productReference = 2941D149DF7DE2D0F595C973 /* ParrotKataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2941D60CE184C848DD977F46 /* ParrotKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2941D0AE09F76814DD732875 /* Build configuration list for PBXNativeTarget "ParrotKata" */;
+			buildPhases = (
+				2941DE26E34E6B2FD9239732 /* Sources */,
+				2941DD14516DB845D54DD204 /* Frameworks */,
+				2941DE7B72983AE6607D0DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParrotKata;
+			productName = ParrotKata;
+			productReference = 2941DA8C06808984783E19F4 /* ParrotKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2941DBAF692B1D72506ABE30 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2941DC10F9D8A960275350CE /* Build configuration list for PBXProject "ParrotKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2941D065A2A4A8E82F80334A;
+			productRefGroup = 2941D0C3D7BD2A987C86F428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2941D60CE184C848DD977F46 /* ParrotKata */,
+				2941D05FA7FACDB2FE63CCEB /* ParrotKataTests */,
+				2941D1319BD7F4C49D26F598 /* ParrotKataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2941D5B497791F1C963410AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2941DAA16460D4A26A8E5920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2941DE7B72983AE6607D0DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2941DB6B61B500C5ED7E9863 /* Assets.xcassets in Resources */,
+				2941DB307DD951B9DA2D9C41 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2941D067D08B7BAA98FB79B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2941D9C4D2AF237680FDFAD8 /* ParrotKataUITests.swift in Sources */,
+				2941D551593F012D489D0DE1 /* ParrotKataUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2941DE26E34E6B2FD9239732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2941DE648846D0872C6428A9 /* ParrotKataApp.swift in Sources */,
+				2941DD0191D7E8CB46265D1F /* ContentView.swift in Sources */,
+				2941D2FFAC54DBFF396C9DA4 /* ParrotType.swift in Sources */,
+				2941DEF3999FA3984651606E /* Parrot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2941DF3A91C77FE8E541D640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2941D3D5948FC95210AAA023 /* ParrotKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2941D31F67A24AF6E0E5F8B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2941D60CE184C848DD977F46 /* ParrotKata */;
+			targetProxy = 2941D7E8A59D1EE149664422 /* PBXContainerItemProxy */;
+		};
+		2941DF1FE4AA1CEEA9F866F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2941D60CE184C848DD977F46 /* ParrotKata */;
+			targetProxy = 2941DA74FD8D18997A80C45A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2941D100284852D166E8B4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.goblindeveloper.ParrotKataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrotKata;
+			};
+			name = Debug;
+		};
+		2941D5048ADF8E0DDBDDEE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2941D8B235D30E1AAF0783A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParrotKata.app/ParrotKata";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.goblindeveloper.ParrotKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		2941DB51D77AF8560197B4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParrotKata.app/ParrotKata";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.goblindeveloper.ParrotKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2941DC01BB9314F7BAE329BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParrotKata/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.goblindeveloper.ParrotKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2941DC2D38612B7864E02B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParrotKata/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.goblindeveloper.ParrotKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2941DD27309136E6802820C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.goblindeveloper.ParrotKataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrotKata;
+			};
+			name = Release;
+		};
+		2941DF1E85B6F19BA89D08D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2941D0AE09F76814DD732875 /* Build configuration list for PBXNativeTarget "ParrotKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2941DC2D38612B7864E02B72 /* Debug */,
+				2941DC01BB9314F7BAE329BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2941D3245B0A98DE9BB82AC0 /* Build configuration list for PBXNativeTarget "ParrotKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2941DB51D77AF8560197B4BC /* Debug */,
+				2941D8B235D30E1AAF0783A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2941D5AADBE521DB84F5D8EE /* Build configuration list for PBXNativeTarget "ParrotKataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2941D100284852D166E8B4EE /* Debug */,
+				2941DD27309136E6802820C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2941DC10F9D8A960275350CE /* Build configuration list for PBXProject "ParrotKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2941DF1E85B6F19BA89D08D9 /* Debug */,
+				2941D5048ADF8E0DDBDDEE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2941DBAF692B1D72506ABE30 /* Project object */;
+}
